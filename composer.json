@@ -1,0 +1,19 @@
+{
+    "name": "grilar/get-started",
+    "description": "Make site ready in few steps",
+    "type": "package",
+	"license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Grilar\\GetStarted\\": "src"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Grilar\\GetStarted\\Providers\\GetStartedServiceProvider"
+            ]
+        }
+    }
+}
